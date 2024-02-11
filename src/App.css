@@ -1,0 +1,37 @@
+.noteItem {
+  box-shadow: 0 0 0 rgba(0,0,0,.4);
+  margin:20px;
+  display: flex;
+  flex-direction: column;
+  max-width:400px;
+  min-width:200px;
+  flex:1;
+  background-color: white;
+
+}
+.notelists {
+    display:flex;
+    flex-wrap: wrap;
+}
+.noteTitle {
+    font-size: 24px;
+    text-align:center;
+  }
+  
+  .noteContent {
+    font-size: 16px;
+    margin-top:10px;
+  }
+  
+  /* Adjust the font size dynamically based on the length of the content */
+  .noteContent.long {
+    font-size: 17px;
+  }
+  .delbtn {
+   width:60%;
+   margin-left:15%;
+   margin-top:10px;
+   margin-bottom: 10px;
+   padding:2px 0;
+   border:none;
+  }
